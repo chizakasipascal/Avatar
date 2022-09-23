@@ -58,10 +58,6 @@ class _YourPageState extends State<YourPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        title: Text('Position $_scrollPosition pixels'),
-      ),
       body: Center(
         child: Container(
           color: Colors.amber,
